@@ -1,10 +1,4 @@
-﻿//----------------------------------------------------------------------------------
-// Req Socket Sample
-// Author: Manar Ezzadeen
-// Blog  : http://idevhawk.phonezad.com
-// Email : idevhawk@gmail.com
-//----------------------------------------------------------------------------------
-
+﻿
 namespace Req
 {
     using System;

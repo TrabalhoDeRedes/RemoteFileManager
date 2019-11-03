@@ -1,10 +1,4 @@
-﻿//----------------------------------------------------------------------------------
-// Rep Socket Sample
-// Author: Manar Ezzadeen
-// Blog  : http://idevhawk.phonezad.com
-// Email : idevhawk@gmail.com
-//----------------------------------------------------------------------------------
-
+﻿
 namespace Rep
 {
     using System;
@@ -19,10 +13,10 @@ namespace Rep
     {
         static void Main(string[] args)
         {
-            var options = new Options();
+            /*var options = new Options();
             var parser = new CommandLineParser(new CommandLineParserSettings(Console.Error));
             if (!parser.ParseArguments(args, options))
-                Environment.Exit(1);
+                Environment.Exit(1);*/
 
             using (var context = ZmqContext.Create())
             {

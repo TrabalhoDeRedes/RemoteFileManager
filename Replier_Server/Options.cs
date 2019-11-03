@@ -1,10 +1,4 @@
-﻿//----------------------------------------------------------------------------------
-// Command line options
-// Author: Manar Ezzadeen
-// Blog  : http://idevhawk.phonezad.com
-// Email : idevhawk@gmail.com
-//----------------------------------------------------------------------------------
-
+﻿
 namespace Rep
 {
     using System;

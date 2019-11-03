@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replier_Server", "Rep\Replier_Server.csproj", "{E12C7EF5-C2F1-4A14-AD3D-8163996CF4E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replier_Server", "Replier_Server\Replier_Server.csproj", "{E12C7EF5-C2F1-4A14-AD3D-8163996CF4E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requester_Client", "Req\Requester_Client.csproj", "{30C370BE-753D-4621-B700-5F6D5615985E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requester_Client", "Requester_Client\Requester_Client.csproj", "{30C370BE-753D-4621-B700-5F6D5615985E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

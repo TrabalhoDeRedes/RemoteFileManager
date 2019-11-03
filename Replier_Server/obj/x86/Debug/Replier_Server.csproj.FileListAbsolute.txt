@@ -1,0 +1,14 @@
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Replier_Server.csprojAssemblyReference.cache
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Replier_Server.csproj.CoreCompileInputs.cache
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\ReqRep_Pattern_2.bat
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\ReqRep_Pattern_1.bat
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\Rep.exe
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\Rep.pdb
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\clrzmq.dll
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\CommandLine.dll
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\clrzmq.pdb
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\clrzmq.xml
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\CommandLine.xml
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Replier_Server.csproj.CopyComplete
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Rep.exe
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Rep.pdb

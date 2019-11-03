@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="clrzmq">
-      <HintPath>..\..\libs\zmqV3.0\clrzmq.dll</HintPath>
+      <HintPath>..\libs\zmqV3.0\clrzmq.dll</HintPath>
     </Reference>
     <Reference Include="CommandLine">
-      <HintPath>..\..\libs\CommandLineParser.1.9.3.19\lib\CommandLine.dll</HintPath>
+      <HintPath>..\libs\CommandLineParser.1.9.3.19\lib\CommandLine.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
