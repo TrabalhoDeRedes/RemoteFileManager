@@ -14,9 +14,13 @@ namespace Req
         static void Main(string[] args)
         {
             var options = new Options();
-            var parser = new CommandLineParser(new CommandLineParserSettings(Console.Error));
+            options.connectEndPoints = new List<string>();
+            options.connectEndPoints.Add("tcp://127.0.0.1:5000");
+            options.alterMessages = new List<string>();
+            options.alterMessages.Add("World");
+            /*var parser = new CommandLineParser(new CommandLineParserSettings(Console.Error));
             if (!parser.ParseArguments(args, options))
-                Environment.Exit(1);          
+                Environment.Exit(1);*/
 
             using (var context = ZmqContext.Create())
             {

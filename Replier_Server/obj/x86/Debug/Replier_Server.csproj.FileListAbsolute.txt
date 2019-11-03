@@ -12,3 +12,4 @@ C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\CommandLine.xml
 C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Replier_Server.csproj.CopyComplete
 C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Rep.exe
 C:\Repositorios\Redes\RemoteFileManager\Replier_Server\obj\x86\Debug\Rep.pdb
+C:\Repositorios\Redes\RemoteFileManager\Replier_Server\bin\Debug\libzmq.dll

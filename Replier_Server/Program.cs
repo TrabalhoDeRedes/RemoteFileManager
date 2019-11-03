@@ -13,10 +13,13 @@ namespace Rep
     {
         static void Main(string[] args)
         {
-            /*var options = new Options();
-            var parser = new CommandLineParser(new CommandLineParserSettings(Console.Error));
-            if (!parser.ParseArguments(args, options))
-                Environment.Exit(1);*/
+            var options = new Options();
+            options.bindEndPoints = new List<string>();
+            options.bindEndPoints.Add("tcp://127.0.0.1:5000");
+            options.replyMessage = "Hello";
+            //var parser = new CommandLineParser(new CommandLineParserSettings(Console.Error));
+            //if (!parser.ParseArguments(args, options))
+               // Environment.Exit(1);
 
             using (var context = ZmqContext.Create())
             {

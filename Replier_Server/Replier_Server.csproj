@@ -62,7 +62,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libzmq.dll" />
+    <None Include="libzmq.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -10,3 +10,4 @@ C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester_Client.csproj.CopyComplete
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Req.exe
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Req.pdb
+C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\libzmq.dll
