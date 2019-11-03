@@ -1,0 +1,9 @@
+C:\Repositorios\Redes\bin\ReqRep_Pattern_2.bat
+C:\Repositorios\Redes\bin\ReqRep_Pattern_1.bat
+C:\Repositorios\Redes\bin\Rep.exe
+C:\Repositorios\Redes\bin\Rep.pdb
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Replier_Server.csprojAssemblyReference.cache
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Replier_Server.csproj.CoreCompileInputs.cache
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Replier_Server.csproj.CopyComplete
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Rep.exe
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Rep.pdb

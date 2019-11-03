@@ -1,0 +1,2 @@
+C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Req.csprojAssemblyReference.cache
+C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Req.csproj.CoreCompileInputs.cache

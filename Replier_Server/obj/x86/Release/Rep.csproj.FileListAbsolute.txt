@@ -1,0 +1,2 @@
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Rep.csprojAssemblyReference.cache
+C:\Repositorios\Redes\RemoteFileManager\Rep\obj\x86\Release\Rep.csproj.CoreCompileInputs.cache
