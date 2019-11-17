@@ -25,14 +25,18 @@ namespace Req
                     var menuOption = "";
                     while (menuOption != "10")
                     {
+                        Console.Clear();
                         ShowMainMenu();
                         string requestMessage = "";
                         SelectsOptionAndDefinesRequest(out menuOption, out requestMessage);
-                        Console.WriteLine($"\nEnviando requisição {requestMessage} para o servidor");
+                        //Console.WriteLine($"\nEnviando requisição {requestMessage} para o servidor...");
                         socket.Send(requestMessage, Encoding.UTF8);
                         var replyMessage = socket.Receive(Encoding.UTF8);
-                        Console.WriteLine($"Resposta do Servidor: {replyMessage}{Environment.NewLine}");
+                        Console.WriteLine($"Resposta do Servidor:\n {replyMessage}{Environment.NewLine}");
+                        Console.WriteLine("Pressione [ENTER] para voltar ao menu principal...");
+                        Console.ReadLine();
                     }
+                    Environment.Exit(1);
                 }
             }
         }
@@ -49,66 +53,75 @@ namespace Req
             switch (menuOption)
             {
                 case "1":
-                    Console.WriteLine("Listar todos os diretórios do servidor\n");
+                    Console.WriteLine("**Listar todos os diretórios do servidor**\n");
                     requestMessage = "ListAll";
                     break;
                 case "2":
+                    Console.WriteLine("**Listar arquivos de um diretório**\n");
                     Console.WriteLine("Digite o nome do diretório para listar os arquivos: ");
                     folderName = Console.ReadLine();
                     requestMessage = $"List-{folderName}";
                     break;
                 case "3":
+                    Console.WriteLine("**Criar um novo diretório**\n");
                     Console.WriteLine("Digite o nome do diretório que deseja criar: ");
                     folderName = Console.ReadLine();
                     requestMessage = $"CreateFolder-{folderName}";
                     break;
                 case "4":
-                    Console.WriteLine("Digite o nome do diretório onde o arquivo será criado: ");
+                    Console.WriteLine("**Fazer upload de um arquivo**\n");
+                    Console.WriteLine("Digite o diretório de destino do upload: ");
                     folderName = Console.ReadLine();
-                    Console.WriteLine("Digite o nome do arquivo que deseja criar: ");
+                    Console.WriteLine("Digite caminho do arquivo que será carregado: ");
                     fileName = Console.ReadLine();
-                    requestMessage = $"CreateFile-{folderName}-{fileName}";
+                    requestMessage = $"UploadFile-{folderName}-{fileName}";
                     break;
                 case "5":
+                    Console.WriteLine("**Fazer download de um arquivo**\n");
+                    Console.WriteLine("Digite o diretório do arquivo de download: ");
+                    folderName = Console.ReadLine();
+                    Console.WriteLine("Digite o nome do arquivo de download: ");
+                    fileName = Console.ReadLine();
+                    Console.WriteLine("Digite o caminho de destino download: ");
+                    var downloadPath = Console.ReadLine();
+                    requestMessage = $"DownloadFile-{folderName}-{fileName}-{downloadPath}";
+                    break;
+                case "6":
+                    Console.WriteLine("**Deletar um diretório**\n");
                     Console.WriteLine("Digite o nome do diretório que deseja deletar: ");
                     folderName = Console.ReadLine();
                     requestMessage = $"DeleteFolder-{folderName}";
                     break;
-                case "6":
+                case "7":
+                    Console.WriteLine("**Deletar um arquivo**\n");
                     Console.WriteLine("Digite o nome do diretório do arquivo que será deletado: ");
                     folderName = Console.ReadLine();
                     Console.WriteLine("Digite o nome do arquivo que deseja deletar: ");
                     fileName = Console.ReadLine();
                     requestMessage = $"DeleteFile-{folderName}-{fileName}";
                     break;
-                case "7":
+                case "8":
+                    Console.WriteLine("**Copiar um diretório**\n");
                     Console.WriteLine("Digite o nome do diretório que deseja copiar: ");
                     folderName = Console.ReadLine();
                     Console.WriteLine("Digite o nome do novo diretório: ");
                     newFolderName = Console.ReadLine();
                     requestMessage = $"CopyFolder-{folderName}-{newFolderName}";
                     break;
-                case "8":
+                case "9":
+                    Console.WriteLine("**Copiar um arquivo**\n");
                     Console.WriteLine("Digite o nome do diretório do arquivo que será copiado: ");
                     folderName = Console.ReadLine();
                     Console.WriteLine("Digite o nome do arquivo que deseja copiar: ");
                     fileName = Console.ReadLine();
-                    requestMessage = $"CopyFile-{folderName}-{fileName}";
-                    break;
-                case "9":
-                    Console.WriteLine("Digite o nome do diretório do arquivo que será movido: ");
-                    folderName = Console.ReadLine();
-                    Console.WriteLine("Digite o nome do arquivo que deseja mover: ");
-                    fileName = Console.ReadLine();
-                    Console.WriteLine("Digite o nome do diretório para onde deseja mover o arquivo: ");
-                    newFolderName = Console.ReadLine();
-                    requestMessage = $"MoveFile-{folderName}-{fileName}-{newFolderName}";
+                    Console.WriteLine("Digite o nome do diretório de destino: ");
+                    var folderDestination = Console.ReadLine();
+                    requestMessage = $"CopyFile-{folderName}-{fileName}-{folderDestination}";
                     break;
                 case "10":
+                    requestMessage = "Exit";
                     Console.WriteLine("Saindo do REMOTE FILE MANAGER...");
-                    Environment.Exit(1);
                     break;
-
             }
         }
 
@@ -118,12 +131,12 @@ namespace Req
             Console.WriteLine("1 - Listar diretórios do servidor");
             Console.WriteLine("2 - Listar arquivos de um diretório");
             Console.WriteLine("3 - Criar um novo diretório");
-            Console.WriteLine("4 - Criar um novo arquivo");
-            Console.WriteLine("5 - Deletar um diretório");
-            Console.WriteLine("6 - Deletar um arquivo");
-            Console.WriteLine("7 - Copiar um diretório");
-            Console.WriteLine("8 - Copiar um arquivo");
-            Console.WriteLine("9 - Mover um arquivo");
+            Console.WriteLine("4 - Fazer upload de um arquivo");
+            Console.WriteLine("5 - Fazer download de um arquivo");
+            Console.WriteLine("6 - Deletar um diretório");
+            Console.WriteLine("7 - Deletar um arquivo");
+            Console.WriteLine("8 - Copiar um diretório");
+            Console.WriteLine("9 - Copiar um arquivo");
             Console.WriteLine("10 - Sair do REMOTE FILE MANAGER");
             Console.WriteLine("\nSelecione uma opção: ");
         }
