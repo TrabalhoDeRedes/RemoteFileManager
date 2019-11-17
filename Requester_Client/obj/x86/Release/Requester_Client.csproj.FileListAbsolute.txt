@@ -1,7 +1,0 @@
-C:\Repositorios\Redes\bin\Req.exe
-C:\Repositorios\Redes\bin\Req.pdb
-C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Requester_Client.csprojAssemblyReference.cache
-C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Requester_Client.csproj.CoreCompileInputs.cache
-C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Requester_Client.csproj.CopyComplete
-C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Req.exe
-C:\Repositorios\Redes\RemoteFileManager\Req\obj\x86\Release\Req.pdb

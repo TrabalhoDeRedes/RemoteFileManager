@@ -30,7 +30,7 @@ namespace Rep
                 AddDashesToOption = true
             };
             this.HandleParsingErrorsInHelp(help);          
-            help.AddPreOptionsLine("Usage: Rep.exe -b <bind endpoint list> -r <reply msg pattern> [-d <time delay>]");           
+            //help.AddPreOptionsLine("Usage: Rep.exe -b <bind endpoint list> -r <reply msg pattern> [-d <time delay>]");           
             help.AddOptions(this);
 
             return help;

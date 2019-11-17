@@ -8,8 +8,8 @@
     <ProjectGuid>{E12C7EF5-C2F1-4A14-AD3D-8163996CF4E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rep</RootNamespace>
-    <AssemblyName>Rep</AssemblyName>
+    <RootNamespace>Replier</RootNamespace>
+    <AssemblyName>Replier</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

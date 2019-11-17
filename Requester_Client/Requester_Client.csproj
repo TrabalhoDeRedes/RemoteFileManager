@@ -8,8 +8,8 @@
     <ProjectGuid>{30C370BE-753D-4621-B700-5F6D5615985E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Req</RootNamespace>
-    <AssemblyName>Req</AssemblyName>
+    <RootNamespace>Requester</RootNamespace>
+    <AssemblyName>Requester</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

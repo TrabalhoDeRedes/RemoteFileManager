@@ -1,5 +1,3 @@
-C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\Req.exe
-C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\Req.pdb
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\clrzmq.dll
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\CommandLine.dll
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\clrzmq.pdb
@@ -8,6 +6,8 @@ C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\CommandLine.x
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester_Client.csprojAssemblyReference.cache
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester_Client.csproj.CoreCompileInputs.cache
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester_Client.csproj.CopyComplete
-C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Req.exe
-C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Req.pdb
 C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\libzmq.dll
+C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\Requester.exe
+C:\Repositorios\Redes\RemoteFileManager\Requester_Client\bin\Debug\Requester.pdb
+C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester.exe
+C:\Repositorios\Redes\RemoteFileManager\Requester_Client\obj\x86\Debug\Requester.pdb
